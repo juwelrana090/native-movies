@@ -37,3 +37,17 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+
+# Compressed files
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.gz
+*.7z
+*.bz2
+*.7zip
+
+# Logs
+*.log
