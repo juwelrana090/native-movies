@@ -5,11 +5,8 @@ import "./globals.css";
 export default function RootLayout() {
   return (
     <>
-      <StatusBar
-        // hidden={false}
-        //@ts-ignore
-        style="light"
-      />
+      <StatusBar hidden={true} />
+
       <Stack>
         <Stack.Screen
           name="(tabs)"
@@ -18,7 +15,7 @@ export default function RootLayout() {
           }}
         />
         <Stack.Screen
-          name="movies/[id]"
+          name="movie/[id]"
           options={{
             headerShown: false,
           }}
